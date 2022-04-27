@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    justify-content: center;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.insert{
+    display: flex;
+    min-width: 300px;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.insert input{
+    border-radius: 5px;
+    min-height: 25px;
+    min-width: 100px;
+    margin: 5px 10px 5px 5px;
+    width: 200px;
+
+
+}
+
+.insert button{
+    border: 1px solid rgb(105, 197, 255);
+    border-radius: 5px;
+    background-color: rgb(227, 248, 255);
+    color: rgb(105, 197, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+.list{
+    min-width: 350px;
+}
+
+.opt{
+    margin-top: 5px;
+    font-weight: bold;
+    min-width: 300px;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+
+.opt input:checked+label{
+
+   text-decoration: line-through;
+
+}
